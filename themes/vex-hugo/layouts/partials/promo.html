@@ -1,0 +1,29 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.homepage.promo.enable }}
+{{ with $data.homepage.promo }}
+<section class="bg-orange section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center mb-5 mb-lg-0">
+        <img class="img-fluid" src="{{ .image | absURL }}" alt="">
+      </div>
+      <div class="col-md-6 align-self-center text-center text-md-left">
+        <div class="content" style="padding-top: 30px;">
+          <h2 class="subheading text-black font-weight-bold mb-10">{{ .title | markdownify }}</h2>
+          <p class="text-black">{{ .content | markdownify }}</p>
+          <a href="https://drive.google.com/file/d/1vnZz0LhkKvhUG223bMN6u0b84lBQh9LQ/view?usp=sharing"><button class="btn btn-main btn-submit" type="submit" name="subscribe">{{i18n "dd"}}</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .bg-orange .row{
+    border-bottom: solid 0.2px #f6d7b0;
+    padding-bottom: 20px;
+  }
+</style>
+{{ end }}
+{{ end }}
+

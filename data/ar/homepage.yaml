@@ -1,0 +1,123 @@
+############################# banner ############################
+banner:
+  enable: true
+  title: "إعادة تعريف صفقات ايجار المعدات الثقيلة"
+  content: "مستقبل الاعمال الانشائية الناجحة يبدا هنا"
+  image: "images/hero-image.png"
+  button:
+    enable: true
+    label: "ارني النسخة التجريبية للتطبيق"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfk_yOaTX3AH-STCzl9EkTRZ0kIzkfYlsUm9EN02-KK-J2K0w/viewform?usp=sf_link"
+
+############################# Feature ############################
+features:
+  enable: true
+  title: "ماذا سيقدم معدتي؟"
+  image: "images/heevv3.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+    - title: "جودة"
+      
+      content: "أصول الصفقات الناجحة"
+
+
+      # feature item loop
+    - title: "سرعة"
+      
+      content: "سرعة الوصول الى الجهة المستهدفة "
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+    - title: "خبرة"
+      
+      content: "مصادر موثوقة بإعتماد من خبراء التقييم"
+
+      # feature item loop
+    - title: "فرص واسعة"
+      
+      content: "فرص واضحة وجاذبة في جميع مناطق المملكة العربية السعودية"
+
+
+############################# promo ############################
+promo:
+  enable: true
+  image: "images/rree4.png"
+  title: "معدتي يسهل عملية ايجار المعدات الثقيلة."
+  content:
+    "
+    <br>
+    سواء كنت صاحب معدات ثقيلة ام مقاول محتاج لمعدات، معدتي يسهل على جميع الاطراف المشاركة."
+
+############################# About Product #######################
+about_product:
+  enable: false
+  title: "فئات المنتجات"
+  items:
+    # about product item loop
+    - image: "images/roppe.jpg"
+      title: "مسلتزمات ورعاية مابعد الجراحة"
+      content:
+        ".نوفر لكم جميع مستلزمات واحتياجات ما بعد الجراحات، الى باب بيتكم"
+      button:
+        enable: false
+        label: "استكشف الفئة"
+        link: "#/"
+
+    # about product item loop
+    - image: "images/babyb1.jpeg"
+      title: "رعاية ومسلتزمات الام للاطفال"
+      content:
+        "نوفر لكم جميع حاجات الطفل،من ضمنها مستلزمات الرضاعة الطبيعية."
+      button:
+        enable: false
+        label: "استكشف الفئة"
+        link: "#/"
+
+        # about product item loop
+    - image: "images/womansta.avif"
+      title: "رعاية المنزل وكبار السن"
+      content:
+        "نوفر منتجات ومستلزمات لكبار السن ومرضى الرعاية المنزلية، بكل ما يحتاجوه للرعاية اليومية"
+      button:
+        enable: false
+        label: "استكشف الفئة"
+        link: "#/"
+
+#################################### Products ########################
+products:
+  enable: false
+  title: "استكشفوا جميع منتجاتنا"
+
+################################## Subscription ###################
+subscription:
+  enable: true
+  bg_image: "images/call-to-action.jpg"
+  title: "ادخل ايميلك للحصول على التطبيق"
+  content: "سيصلك رابط لتحميل التطبيق"
+  placeholder: "بريدك الاكتروني"
+
+############################## Testimonial ##########################
+testimonial:
+  enable: false
+  title: "تقييم العملاء"
+  testimonial_item:
+    # testimonial item loop
+    - name: "ثامر"
+      designation: "مقدم رعاية"
+      image: "images/avater.png"
+      content: "خدمة جميلة"
+
+    # testimonial item loop
+    - name: "مهند"
+      designation: "مقدم رعاية"
+      image: "images/avater.png"
+      content: "خدمة جميلة"
+
+    # testimonial item loop
+    - name: "سعود"
+      designation: "مقدم رعاية"
+      image: "images/avater.png"
+      content: "خدمة جميلة"

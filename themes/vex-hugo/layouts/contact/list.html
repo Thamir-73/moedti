@@ -6,13 +6,13 @@
       {{ with .Params.office }}
       <div class="col-lg-5 col-sm-6 mb-5">
         <h2 class="font-weight-bold mb-4">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
+        <p style="text-align: right;">{{ .content | markdownify }}</p>
         <ul class="list-unstyled contact-list">
-          {{with .mobile}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-ios-telephone mr-2"></i>
-              {{ . }}</a></li>{{ end }}
-          {{with .email}} <li class="mb-3"><a href="mailto:{{ . }}"><i class="tf-ion-email mr-2"></i>{{ . }}</a></li>
+          {{with .mobile}} <li class="mb-3" style="text-align: right;"><a href="tel:{{ . }}">
+              {{ . }}</a><i class="tf-ion-ios-telephone mr-2" style="padding-left: 9px;"></i></li>{{ end }}
+          {{with .email}} <li class="mb-3" style="text-align: right;"><a href="mailto:{{ . }}"></a></i>{{ . }}</a><i class="tf-ion-email mr-2" style="padding-left: 9px;"></i></li>
           {{end }}
-          {{with .location }} <li class="mb-3"><i class="tf-ion-ios-location mr-2"></i>{{ . }}
+          {{with .location }} <li class="mb-3" style="text-align: right;">{{ . }} <i class="tf-ion-ios-location mr-2" style="padding-left: 9px;"></i>
           </li>{{ end }}
         </ul>
       </div>
@@ -22,7 +22,7 @@
         <h2 class="font-weight-bold mb-4">{{ .title | markdownify }}</h2>
         <ul class="list-unstyled">
           {{ range .day_time }}
-          <li class="mb-2">{{ . | markdownify }}</li>
+          <li class="mb-2"  style="text-align: right;">{{ . | markdownify }}</li>
           {{ end }}
         </ul>
         {{ end }}

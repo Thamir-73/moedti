@@ -216,7 +216,7 @@ a:active {
 }
 
 .btn-main {
-  color: #fff;
+  color: #000;
   border-radius: 30px;
   font-size: 18px;
   padding: 15px 40px;
@@ -258,7 +258,10 @@ a:active {
 
 .navbar{
     border-bottom: solid 0.2px #f6d7b0;
+    height: 100px;
 }
+
+
 
 .dropdown {
   &:hover {
@@ -269,6 +272,8 @@ a:active {
     }
   }
 }
+
+
 
 .navbar-toggler{
   @include mobile{
@@ -392,7 +397,7 @@ transition: transform 1s;
   border-bottom: solid 0.2px #f6d7b0;
   padding-bottom: 20px;
   opacity: 0;
-  transition: opacity 1s ease, transform 1s ease;
+  transition: opacity 4s ease, transform 4s ease;
   transform: translateY(20px);
 }
 
@@ -653,6 +658,7 @@ s.price {
     font-size: 18px;
   }
 }
+
 
 .form-control {
   border: 1px solid #dadada;

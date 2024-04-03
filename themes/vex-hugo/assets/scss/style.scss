@@ -54,13 +54,27 @@ h1,
   font-size: 44px;
   line-height: 56px;
   animation: cascade-reveal 2s ease-in-out forwards;
-  
 }
 
 @keyframes cascade-reveal {
   from {
     opacity: 0;
     transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section .col-md-6{
+  animation: cascadee-reveal 2s ease-in-out forwards;
+}
+
+@keyframes cascadee-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(90px);
   }
   to {
     opacity: 1;
@@ -149,7 +163,7 @@ a:active {
 }
 
 .section {
-  padding: 35px 0;
+  padding: 20px 0;
 }
 
 .font-size-60 {
@@ -380,14 +394,14 @@ transition: transform 1s;
   
 }
 
-.section#features .col-md-4 {
+.section#features .mb-40 {
   opacity: 0;
   transform: translateY(50px);
   scroll-snap-align: start;
   transition: opacity 3.9s, transform 3.9s;
 }
 
-.section#features .col-md-4.reveal {
+.section#features .mb-40.reveal {
   opacity: 1;
   transform: none;
 }

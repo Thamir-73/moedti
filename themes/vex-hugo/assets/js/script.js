@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', reverseNavbarLinks);
 
 // JavaScript to add reveal class on scroll
 document.addEventListener("scroll", function() {
-  var elements = document.querySelectorAll(".section#features .col-md-4");
+  var elements = document.querySelectorAll(".section#features .mb-40");
 
   elements.forEach(function(element) {
     if (isElementInViewport(element) && !element.classList.contains("reveal")) {

@@ -79,8 +79,8 @@ weight = 3
 [params]
 logo = "images/llog3.png"
 title = "معدتي"
-logo_width = "90px"
-favicon = "images/llog3.png" 
+logo_width = "60px"
+favicon = "images/favicon32.png" 
 # Meta data
 description = "معدتي هو تطبيق مختص بتسهيل عملية ايجار المعدات لجميع الاطراف"
 author = "Thamir"

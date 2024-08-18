@@ -77,9 +77,9 @@ weight = 3
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/llog3.png"
+logo = "images/logmoed.png"
 title = "معدتي"
-logo_width = "60px"
+logo_width = "90px"
 favicon = "images/favicon32.png" 
 # Meta data
 description = "معدتي هو تطبيق مختص بتسهيل عملية ايجار المعدات لجميع الاطراف"
